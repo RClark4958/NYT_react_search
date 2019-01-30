@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "yarn": "1.13.0"
+  },
   "scripts": {
     "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
     "start:prod": "concurrently \"nodemon --ignore 'client/*'\" \"yarn client\"",
