@@ -1,7 +1,7 @@
 {
   "name": "rv-my-react-app",
   "version": "1.0.0",
-  "description": "rv-my-react-app Demo",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
@@ -12,8 +12,8 @@
     "build": "cd client && yarn build",
     "heroku-postbuild": "yarn build"
   },
-  "repository": "https://github.com/RichardVargas1/NYT-Google-Books-Search-RV",
-  "author": "Richard Vargas",
+  "repository": "",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
